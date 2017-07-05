@@ -1,0 +1,184 @@
+*{padding: 0; margin: 0;}
+
+/* --- login --- */
+
+body {
+    height: 700px;
+    background: #B2FEFA;
+    background: -webkit-linear-gradient(right, #0ED2F7, #B2FEFA);
+    background: -o-linear-gradient(right, #0ED2F7, #B2FEFA);    
+    background: linear-gradient(to left, #0ED2F7, #B2FEFA); 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;    
+    height: 700px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    align-content: center;
+}
+
+.card {
+    width: 40%;
+    height: 500px;    
+    background-color: white;    
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-container {
+	width: 80%;
+    margin: auto;
+    height: 500px;    
+    display: flex;    
+    flex-direction: column;    
+}
+
+.title {        
+    color: #4285F4;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;    
+    height: 250px;
+    flex-direction: column;
+}
+
+label {
+    color: #666666;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+#forget {
+    width: 74%;
+    text-align: right;	
+    letter-spacing: 0px;
+    font-size: 0.9em;
+    color: #4896F7;    
+}
+
+#submit {
+    width: 74%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.5s;
+}
+
+#submit:hover {
+    background-color: #3295F9;
+}
+
+.end-card {
+    width: 2%;
+    height: 500px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #4285F4;
+}
+
+/* --- Evaluaciones --- */
+
+.cards {
+    width: 30%;
+    height: 250px;    
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;    
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;    
+}
+
+.name {
+    width: 100%;
+    color: #4285F4;
+    text-align: center;
+}
+
+.status{
+    width: 100%;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#state {
+    font-style: italic;
+}
+
+button {
+    width: 50%;
+    background-color: #4285F4;
+    border: none;
+    color: white;    
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: #3295F9;
+}
+
+/* --- Evaluacion --- */
+
+.sheet {
+    width: 80%;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-name {
+    height: 100px;
+	color: #666666;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separator {
+	width: 50%;
+    height: 3px;
+    background-color: #666666;
+}
+
+.qualify {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
